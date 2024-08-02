@@ -1,11 +1,7 @@
 pipeline {
     agent any
     stages {
-<<<<<<< HEAD
-        stage('Build467923698978362873682382765') { 
-=======
-        stage('Build4497890') { 
->>>>>>> 78c96d96767216beff3ab1fa12d442d7dfbd4861
+        stage('Build4665123') { 
             steps {
                 sh 'mvn -B -DskipTests clean package' 
             }
